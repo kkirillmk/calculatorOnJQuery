@@ -24,6 +24,10 @@ body {
     align-items: center;
 }
 
+.info #result {
+    flex-basis: 30%;
+}
+
 #system_unit_img {
     width: 200px;
 }
@@ -67,42 +71,42 @@ body {
     cursor: pointer;
 }
 
-#color_black {
+#colorBlack {
     background-color: #000000;
 }
 
-#color_grey {
+#colorGrey {
     background-color: #838383;
 }
 
-#color_red {
+#colorRed {
     background-color: #fe1203;
 }
 
-#color_orange {
+#colorOrange {
     background-color: #ff6b0e;
 }
 
-#color_yellow {
+#colorYellow {
     background-color: #ecd329;
 }
 
-#color_green {
+#colorGreen {
     background-color: #5fff17;
 }
 
-#color_blue {
+#colorBlue {
     background-color: #1632ff;
 }
 
-#color_mint {
+#colorMint {
     background-color: #17ff93;
 }
 
-#color_pink {
+#colorPink {
     background-color: #fd2ffd;
 }
 
-#color_purple {
+#colorPurple {
     background-color: #9817ff;
 }
