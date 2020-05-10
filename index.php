@@ -5,6 +5,7 @@
     <title>Computer shop</title>
     <link rel="stylesheet" href="styles/normalize.css?<?= time(); ?>">
     <link rel="stylesheet" href="styles/style.css?<?= time(); ?>">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div class="wrapper">
@@ -15,7 +16,7 @@
                 <p id="componentsSpecs"></p>
                 <p id="componentsPrice"></p>
                 <p id="componentsPriceUSD"></p>
-                <button>Заказать</button>
+                <button id="submit">Заказать</button>
             </div>
         </div>
         <div class="options">
